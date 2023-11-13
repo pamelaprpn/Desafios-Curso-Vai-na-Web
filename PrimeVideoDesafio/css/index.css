@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans);
 
+* {
+    box-sizing: border-box;
+}
+
 nav{ 
     background-color: #1E1E1E;
     width: 100%;
@@ -55,7 +59,7 @@ section{
     transform: translateY(-7px)
 }
 
-#filmes_cards p{
+#filmes_cards h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
