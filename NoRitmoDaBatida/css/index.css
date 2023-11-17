@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    color: white;
+}
+
+header{
+    background-color: #129799;
+    padding: 20px 0 20px 0;
+
+}
+
+h1{
+    color: white;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#menu-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#menu-top ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#menu-top ul li:hover{
+    text-decoration: underline;
+}
+
+
+#menu-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu-info ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#menu-info ul li:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: #FFA185;
+    padding-bottom: 30px;
+    
+}
+
+#introducao{
+    padding: 50px 0 50px 0;
+    padding-left: 100px;
+}
+
+#introducao h2{
+    color: white;
+    padding-bottom: 30px;
+    
+}
+
+#ritmos{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 30px;
+    align-items: center;
+    justify-items: center;    
+}
+
+ #ritmos figure{
+    padding: 20px 0 20px 0;
+}
+
+#load-more{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#load-more a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #129799;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+#menu-bottom ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#menu-bottom ul li:hover{
+    text-decoration: underline;
+}
