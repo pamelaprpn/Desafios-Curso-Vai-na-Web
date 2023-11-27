@@ -35,13 +35,13 @@ figure{
     
 }
 
-#menu-top ul li{
+#menu-top li{
     display: inline-block;
     font-weight: bold;
     padding-right: 30px;
 }
 
-#menu-top ul li:hover{
+#menu-top li:hover{
     text-decoration: underline;
 }
 
@@ -52,13 +52,13 @@ figure{
     align-items: center;
 }
 
-#menu-info ul li{
+#menu-info li{
     display: inline-block;
     font-weight: bold;
     padding-right: 30px;
 }
 
-#menu-info ul li:hover{
+#menu-info li:hover{
     text-decoration: underline;
 }
 
@@ -111,12 +111,12 @@ footer{
     
 }
 
-#menu-bottom ul li{
+#menu-bottom li{
     display: inline-block;
     font-weight: bold;
     padding-right: 30px;
 }
 
-#menu-bottom ul li:hover{
+#menu-bottom li:hover{
     text-decoration: underline;
 }
