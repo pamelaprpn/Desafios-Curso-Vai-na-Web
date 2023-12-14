@@ -4,93 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SelfCare</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;500;600;700&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <nav>
             <img src="img/logo.png" alt="logo">
-            <div id="menu">
+            <div class="menu">
                 <a><img src="img/search.png" alt="search"></a>
                 <a><img src="img/login.png" alt="login"></a>
                 <a><img src="img/cart.png" alt="cart"></a>
             </div>
         </nav>
 
-        <figure>
+        <figure class="banner">
             <img src="img/banner.png" alt="banner">
         </figure>
     </header>
 
     <main>
 
-        <section id="cont-produtos">
+        <section class="cont-product">
             <h2>PROMOÇÃO</h2>
             <span>9 produtos</span>
         </section>
 
-        <section id="cards">
+        <section class="cards">
 
-            <div id="card">
+            <div class="card">
                 <img src="img/elixir-eternidade.png" alt="Elixir da Eternidade">
                 <h3>Elixir da Eternidade</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/vitamina-sol.png" alt="Vitamina do Sol">
                 <h3>Vitamina do Sol</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/vitamina-lua.png" alt="Vitamina do Lua">
                 <h3>Vitamina do Lua</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/petalas-amor.png" alt="Pétalas de Amor">
                 <h3>Pétalas de Amor</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/essencia-natureza.png" alt="Essência da Natureza">
                 <h3>Essência da Natureza</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/jasmin-rosa.png" alt="Jasmin com Notas de Rosas">
                 <h3>Jasmin com Notas de Rosas</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/essencia-melissa.png" alt="Essência de Melissa">
                 <h3>Essência de Melissa</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/pureza-iluminada.png" alt="Pureza Iluminada">
                 <h3>Pureza Iluminada</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span class="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
-            <div id="card">
+            <div class="card">
                 <img src="img/essencia-patchouli.png" alt="Essência de Patchouli">
                 <h3>Essência de Patchouli</h3>
-                <p>R$ 50,00</p>
+                <p>R$<span id="valor">50,00</span></p>
                 <button>Comprar</button>
             </div>
 
@@ -98,37 +103,37 @@
 
     </main>
 
-    <aside>
-        <section id="contact">
-            <ul>
-            <a><li>Contato</li></a>
-            <a><li>Termos de Serviço</li></a>
-            <a><li>Política de Privacidade</li></a>
-            <a><li>Cancelamento, troca e reembolso</li></a>
-            </ul>
-        </section>
-
-        <section id="newsletter">
-            <p>Newsletter</p>
-            <input type="text">
-            <button>Increver</button>
-
-        </section>
-
-    </aside>
-
     <footer>
-       <section id="social-media">
+    <section class="footer-primario">
+        <div>
+            <ul class="contact">
+            <li><a></a>Contato</li>
+            <li><a>Termos de Serviço</a></li>
+            <li><a>Política de Privacidade</a></li>
+            <li><a>Cancelamento, troca e reembolso</a></li>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <p>Newsletter</p>
+            <input type="email" value="Digite seu melhor e-mail">
+            <button>Increver</button>
+        </div>
+    </section>
+
+    <section class="footer-secundario">
+       <div class="social-media">
             <a><img src="img/instagram.png" alt="instagram"></a>
             <a><img src="img/facebook.png" alt="facebook"></a>
 
-       </section>
+       </div>
 
-       <section id="payments">
+       <div class="payments">
         <img src="img/mastercard.png" alt="mastercard">
         <img src="img/paypal.png" alt="paypal">
         <img src="img/visa.png" alt="visa">
-       </section>
+       </div>
+    </section>
 
     </footer>
     
